@@ -1,0 +1,42 @@
+/* Ajuste del contenedor principal */
+.container-fluid {
+    padding: 5;
+    height: 10vh;
+    background-color: #0765f1;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Botón principal */
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+/* Imagen responsiva */
+.img-fluid {
+    max-width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+}
+
+/* Responsividad adicional */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .btn-primary {
+        font-size: 1rem;
+    }
+
+    .img-fluid {
+        margin-top: 20px;
+    }
+}
